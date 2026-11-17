@@ -15,6 +15,13 @@ This project involves a thorough analysis of 10,589 vehicles listed by Park whee
   
 </ul>
 
+<h2>Utilities Used:</h2>
+<ul>
+ <li><b>Visualization tool:</b> Tableau</li>
+  <li><b>Programming Language:</b> Python</li>
+  <li><b>Libraries:</b> Pandas, NumPy, Matplotlib, Seaborn</li>
+</ul>
+
 <h2>Dash Board Featurers:</h2>
 <ul>
   <li>KPI cards showing Active listings, Median mileage, Median price, Automatic share and Price outliers.</li>
@@ -23,28 +30,22 @@ This project involves a thorough analysis of 10,589 vehicles listed by Park whee
   <li>Pie charts showing median price per age category and Active listings per age bracket.</li>
   <li>4 filters allowing the stakeholders to see the feature distributions across Year span.Engine category, Fuel type and Transmission.</li>
 </ul>
+<h2>Program walk-through:</h2>
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/UGqRqSG.png"/>
+<img src="https://i.imgur.com/2Lvl1iE.png "/>
+<br />
+<br />
+<img src="https://media-hosting.imagekit.io/0ee75341842b4af4/Screenshot%20(198)%20a.png?Expires=1841337944&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=imIz2IateWmkNPA5jY5uX8TqSTqoIKtyRdjT-m0qVaSasHHrl7FimHmzGFueQs~QqRXFX7kPAadVazpGUZ6sVJ-gzxNcSMVmK0sVsqwgxVTKKZiLzXIjksIXaQImNYq8dwocg0FVH2rJ2PEZZ8oe3NuBYh3LwnyK6fSsI-7Yj0T6SOeSRm5seTtHaJ~3BMvNbKUKH-qlI7Ai-hrN4Z3hj0Ow2BBVwKBM0sYWBXFadCigThfLvI2IhPqIu40IiYaQGIgrosgbdJK8ictEouvameh365aMC1lb48SJ8JFuHGa1WMm~1OT34O~SiuTzojvE0tHju05p24ilvHloWUlyzA__"/>
+<br />
+<br />
+<img src="https://media-hosting.imagekit.io/09500bc907ae48d8/Screenshot%20(227)%20a.png?Expires=1841338287&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=XsI~Qc5fLojGAXJXfOH-k0wx8wJRHX0AjHijQGoHRyrTZ4S9t5a8x4iFpLFk18EZKZp9uzd1N8M8MABpX0rGEkyy5Cw6kT1M1MvMAZhhvqojxinb5YoWifqLBYkL7kK6hlfgU-CDdtLOBgbZJZcRcHYfDcLORA0wmMEzwHxyXmpBbt~BoRx4Jm3KKmJvVnNDb4NulIEtNcxTFEt2dCEFyhU00hfbvmHJpDZk2ax-Dy9Y9Zrq9SFrcsjjIWpZVh1qtzgMQ8-16RnRy9abI73Kg9Pe-3ig~CxOnZtJ9CInseqPO15NeAVaQpVAr7c1x08Gek7fO9PrC0tYomdbCIYqWA__"/>
+<br />
+<br />  
 
-<h2>Bussiness Impact</h2>
-<li>More Than 2.5M+ rides were observed during the selected time period.</li>
-<li>The overall timeline (2015–2017) shows:
-Ridership rises every spring.
-Peaks during summer (around July–September).
-Declines during autumn and winter.</li>
-<li> The bike rides peaks during july to september while the least rides were observed in january </li>
-<li>The Morning time is the bussiest time if the day 
-<b>7 AM: 3,811 rides </b>
-<b>9 AM: 2,470 rides
- </b>which explains that people have to travel to the work so the availibity should be increased during this time</li>
-<li>Cold temperature and Stronger winds discourage riders which corresponds to lower count. Which means people prefer riding in comfortable weather.</li>
-
-
-<h2>Bussiness recomendations</h2>
-<li>Increase bike availability during spring and summer when demand is highest.</li>
-<li>Rebalance stations before morning commuting hours (around 6–9 AM).</li>
-<li>Schedule maintenance during winter when ridership is naturally lower.</li>
-<li>Use weather forecasts to anticipate daily demand and optimize bike distribution.</li>
-<li>Plan staffing around morning peak periods to improve operational efficiency.
-</li>
+```
+--!>
 
 
 
