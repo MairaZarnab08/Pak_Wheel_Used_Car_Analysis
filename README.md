@@ -1,29 +1,27 @@
 <h1>London Bike Rides Analysis</h1>
 <h2>Description:</h2>
-This project involves a building an interactive Tableau dashboard to solve bussiness questions.<br />
-<br />
-How do weather conditions, seasonal trends, and time influence bike-sharing demand, and how can these insights support operational planning?.
+This project involves a thorough analysis of 10,589 vehicles listed by Park wheels to uncover pricing trends, depreciation patterns, brand performance and regional market distribution across Pakistan. Data was obtained from Kaggle. After initial data quality check and cleaning the csv file was imported in Tableau for building interactive dashboard. Where 10,589 listed vehicles were analyzed over a time period of 65 years. 
 <br />
 <br />
 <h2>Objectives:</h2>
 <ul>
  
-  <li>Identify periods of high and low bike demand.</li>
-  <li>Understand how temperature, wind speed, and weather conditions impact ridership.</li>
-  <li>Analyze long-term demand trends using a moving average.</li>
-  <li>Charge Distribution Analysis.</li>
-  <li>Enable stakeholders to explore data through interactive filters and date selections.</li>
-  <li>Support data-driven decisions for bike allocation, maintenance scheduling, and resource planning.</li>
+  <li>Identify key factors influencing vehicle listing prices.</li>
+  <li>Examine vehicle depreciation patterns across over 65 years.</li>
+  <li>Compare brand-wise listing volumes and market presence.</li>
+  <li>Investigate the relationship between vehicle mileage and price to optimize best deals to purchase.</li>
+  <li>Analyze regional distribution of used-car listings across Pakistan.</li>
+  <li>Identify pricing outliers and the percentage of Automotive vehicles in the Active listings.</li>
   
 </ul>
 
 <h2>Dash Board Featurers:</h2>
 <ul>
-  <li>KPI card showing total rides for selected periods.</li>
-  <li>Heatmap analyzing the relationship between temperature, wind speed, and ride volume.</li>
-  <li>25-day moving average to reveal demand trends.</li>
-  <li>Dynamic parameters and filters for customized analysis.</li>
-  <li>Interactive tooltips with weather and hourly ride distribution.</li>
+  <li>KPI cards showing Active listings, Median mileage, Median price, Automatic share and Price outliers.</li>
+  <li>No of vehicles for top 10 brands and depreciation over a period of 66 years.</li>
+  <li>Regional map showing active listings for sale across 193 cities of Pakistan.</li>
+  <li>Pie charts showing median price per age category and Active listings per age bracket.</li>
+  <li>4 filters allowing the stakeholders to see the feature distributions across Year span.Engine category, Fuel type and Transmission.</li>
 </ul>
 
 <h2>Bussiness Impact</h2>
