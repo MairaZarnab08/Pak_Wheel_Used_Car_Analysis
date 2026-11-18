@@ -188,25 +188,18 @@ This project involves a thorough analysis of 10,589 vehicles listed by Park whee
 <br />
 <br />
 
+<h2>Business Impact</h2>
+
+<ul>
+    <li><strong>Better Pricing Decisions:</strong> Using median prices instead of mean prices provides a more reliable benchmark for evaluating typical vehicle prices, reducing the influence of unusually expensive listings.</li>
+
+   <li><strong>Improved Vehicle Comparisons:</strong> Segmenting vehicles by manufacturing year, mileage, and engine capacity helps buyers compare similar vehicles and identify listings that better match their requirements.</li>
+
+   <li><strong>Depreciation Assessment:</strong> Analyzing prices across manufacturing years helps reveal depreciation patterns and supports more informed decisions about vehicle age and resale value.</li>
+
+   <li><strong>Market Segmentation:</strong> Understanding the distribution of engine capacities and vehicle characteristics helps identify the categories that dominate the used-car listings market.</li>
+
+   <li><strong>Data-Driven Market Overview:</strong> The analysis provides a structured view of used-car listings in Pakistan, helping users explore pricing patterns and market characteristics across different vehicle categories.</li>
+</ul>
 
 
-
-
-
-```
---!>
-
-
-
-
-
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
