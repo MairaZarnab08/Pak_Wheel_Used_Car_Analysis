@@ -1,4 +1,4 @@
-<h1>London Bike Rides Analysis</h1>
+<h1>Pak Wheel used Car Analysis</h1>
 <h2>Description:</h2>
 This project involves a thorough analysis of 10,589 vehicles listed by Park wheels to uncover pricing trends, depreciation patterns, brand performance and regional market distribution across Pakistan. Data was obtained from Kaggle. After initial data quality check and cleaning the csv file was imported in Tableau for building interactive dashboard. Where 10,589 listed vehicles were analyzed over a time period of 65 years. 
 <br />
@@ -33,16 +33,37 @@ This project involves a thorough analysis of 10,589 vehicles listed by Park whee
 <h2>Program walk-through:</h2>
 <p align="center">
 <br/>
-<img src="https://i.imgur.com/UGqRqSG.png"/>
-<img src="https://i.imgur.com/2Lvl1iE.png "/>
+<img src="https://cdn.phototourl.com/anon/2026-11-18-02569531-7b4b-415f-a82e-3b29469b73cb.png"/>
+<img src="https://cdn.phototourl.com/anon/2026-11-18-a3cf1c6d-1606-4154-b694-aca11f6c747f.png"/>
 <br />
 <br />
-<img src="https://media-hosting.imagekit.io/0ee75341842b4af4/Screenshot%20(198)%20a.png?Expires=1841337944&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=imIz2IateWmkNPA5jY5uX8TqSTqoIKtyRdjT-m0qVaSasHHrl7FimHmzGFueQs~QqRXFX7kPAadVazpGUZ6sVJ-gzxNcSMVmK0sVsqwgxVTKKZiLzXIjksIXaQImNYq8dwocg0FVH2rJ2PEZZ8oe3NuBYh3LwnyK6fSsI-7Yj0T6SOeSRm5seTtHaJ~3BMvNbKUKH-qlI7Ai-hrN4Z3hj0Ow2BBVwKBM0sYWBXFadCigThfLvI2IhPqIu40IiYaQGIgrosgbdJK8ictEouvameh365aMC1lb48SJ8JFuHGa1WMm~1OT34O~SiuTzojvE0tHju05p24ilvHloWUlyzA__"/>
+<img src="https://cdn.phototourl.com/anon/2026-11-18-a20e8de0-6ec1-4e60-8ea3-72253b9c5a7d.png"/>
 <br />
 <br />
-<img src="https://media-hosting.imagekit.io/09500bc907ae48d8/Screenshot%20(227)%20a.png?Expires=1841338287&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=XsI~Qc5fLojGAXJXfOH-k0wx8wJRHX0AjHijQGoHRyrTZ4S9t5a8x4iFpLFk18EZKZp9uzd1N8M8MABpX0rGEkyy5Cw6kT1M1MvMAZhhvqojxinb5YoWifqLBYkL7kK6hlfgU-CDdtLOBgbZJZcRcHYfDcLORA0wmMEzwHxyXmpBbt~BoRx4Jm3KKmJvVnNDb4NulIEtNcxTFEt2dCEFyhU00hfbvmHJpDZk2ax-Dy9Y9Zrq9SFrcsjjIWpZVh1qtzgMQ8-16RnRy9abI73Kg9Pe-3ig~CxOnZtJ9CInseqPO15NeAVaQpVAr7c1x08Gek7fO9PrC0tYomdbCIYqWA__"/>
+<img src="https://cdn.phototourl.com/anon/2026-11-18-7e31581d-b6fa-469e-85e3-2de68fd9d7a9.png"/>
 <br />
 <br />  
+<img src="https://cdn.phototourl.com/anon/2026-11-18-0170d2d2-f1b6-43e7-9ba3-8f00bd4f43ad.png"/>
+<br />
+<br />
+ <img src="https://user34869.na.imgto.link/public/20261118/e6c94b7c01066d24ef6f4170-screenshot-2026-11-18-at-10-45-45-pm.avif"/>
+<br />
+<br />
+ <img src="https://user34869.na.imgto.link/public/20261118/8ae799b0ac7ada0ac97c8030-screenshot-2026-11-18-at-10-45-58-pm.avif"/>
+<br />
+<br />
+<img src="https://user34869.na.imgto.link/public/20261118/5e871f4faec381522e51f9d0-screenshot-2026-11-18-at-10-46-10-pm.avif"/>
+<br />
+<br />
+<img src="https://user34869.na.imgto.link/public/20261118/62227c6a7644e633d721d851-screenshot-2026-11-18-at-11-15-12-pm.avif"/>
+<img src="https://user34869.na.imgto.link/public/20261118/55657e462c686ee169e19062-screenshot-2026-11-18-at-11-14-22-pm.avif"/>
+<br />
+<br />
+<img src=""/>
+<img src=""/>
+<br />
+<br />
+
 
 ```
 --!>
