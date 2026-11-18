@@ -1,7 +1,6 @@
 <h1>Pak Wheel used Car Analysis</h1>
 <h2>Description:</h2>
-This project involves a thorough analysis of 10,589 vehicles listed by Park wheels to uncover pricing trends, depreciation patterns, brand performance and regional market distribution across Pakistan. Data was obtained from Kaggle. After initial data quality check and cleaning the csv file was imported in Tableau for building interactive dashboard. Where 10,589 listed vehicles were analyzed over a time period of 65 years. 
-<br />
+In Pakistan’s secondary automotive sector where volatile exchange rates, shifting import duties, and high financing costs heavily distort vehicle valuations pricing and inventory decisions are historically driven by dealer intuition rather than empirical market signals. This project aims to move vehicle purchase from intuition to an informed decision. To analyze 10,589 PakWheels listings (median price 34.3 lac, median mileage 88,843 km) to build an interactive Tableau pricing and liquidity engine; isolated 774 mispriced outlier listings (7.3%), quantified the 3-to-5-year depreciation cliff (~80 lac to ~45 lac), and identified a 66.0% automatic transmission shift to guide dealership inventory allocation and trade-in valuation.
 <br />
 <h2>Objectives:</h2>
 <ul>
@@ -188,18 +187,27 @@ This project involves a thorough analysis of 10,589 vehicles listed by Park whee
 <br />
 <br />
 
-<h2>Business Impact</h2>
+<section class="business-impact">
+  <h2>Business Impact </h2>
+  <ul>
+    <li>
+      <strong>Arbitrage &amp; Mispricing Detection:</strong> Isolated <strong>774 price outliers (7.3% of 10,589 listings)</strong> deviating from the price-to-mileage decay curve, enabling dealers to acquire undervalued stock and flag overpriced inventory before it stalls.
+    </li>
+    <li>
+      <strong>High-Liquidity Inventory Targeting:</strong> Identified peak market volume in the <strong>34.3–35.6 lac median price tier (2,595 listings)</strong>, allowing dealerships to concentrate working capital on fast-turning inventory rather than slow-moving <strong>78.5+ lac</strong> stock.
+    </li>
+    <li>
+      <strong>Depreciation Risk Mitigation:</strong> Quantified an aggressive initial value drop from <strong>~80+ lac down to ~45–50 lac</strong> within the first 3–5 model years, giving auto-leasing firms and trade-in desks precise thresholds for residual value modeling.
+    </li>
+    <li>
+      <strong>Procurement &amp; Powertrain Alignment:</strong> Revealed <strong>66.0% automatic transmission dominance</strong> alongside <strong>Toyota, Suzuki, and Honda</strong> market leadership, guiding inventory buyers to prioritize high-demand automatic variants around the <strong>88,843 km median mileage</strong> benchmark.
+    </li>
+    <li>
+      <strong>Regional Supply Optimization:</strong> Mapped heavy listing concentration across the <strong>Central/Northern Punjab corridor</strong> and <strong>Karachi/Hyderabad</strong>, enabling multi-city dealers to transfer excess stock from saturated metro hubs to underserved secondary markets.
+    </li>
+  </ul>
+</section>
 
-<ul>
-    <li><strong>Better Pricing Decisions:</strong> Using median prices instead of mean prices provides a more reliable benchmark for evaluating typical vehicle prices, reducing the influence of unusually expensive listings.</li>
 
-   <li><strong>Improved Vehicle Comparisons:</strong> Segmenting vehicles by manufacturing year, mileage, and engine capacity helps buyers compare similar vehicles and identify listings that better match their requirements.</li>
-
-   <li><strong>Depreciation Assessment:</strong> Analyzing prices across manufacturing years helps reveal depreciation patterns and supports more informed decisions about vehicle age and resale value.</li>
-
-   <li><strong>Market Segmentation:</strong> Understanding the distribution of engine capacities and vehicle characteristics helps identify the categories that dominate the used-car listings market.</li>
-
-   <li><strong>Data-Driven Market Overview:</strong> The analysis provides a structured view of used-car listings in Pakistan, helping users explore pricing patterns and market characteristics across different vehicle categories.</li>
-</ul>
 
 
