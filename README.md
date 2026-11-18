@@ -31,12 +31,32 @@ This project involves a thorough analysis of 10,589 vehicles listed by Park whee
   <li>4 filters allowing the stakeholders to see the feature distributions across Year span.Engine category, Fuel type and Transmission.</li>
 </ul>
 <h2>Program walk-through:</h2>
+<h3>Importing Libraries and Loading the Dataset</h3>
+
+<ul>
+    <li>Imported Pandas and NumPy for data manipulation and numerical operations.</li>
+    <li>Used Matplotlib and Seaborn for statistical visualization.</li>
+    <li>Loaded the PakWheels dataset into a Pandas DataFrame.</li>
+    <li>Created a separate working copy to preserve the original dataset.</li>
+</ul>
 <p align="center">
 <br/>
 <img src="https://user34869.na.imgto.link/public/20261118/2cc36a32889d7c3649a8f006-screenshot-2026-11-18-at-11-28-18-pm.avif"/>
 <br />
 <br />
 <img src="https://cdn.phototourl.com/anon/2026-11-18-02569531-7b4b-415f-a82e-3b29469b73cb.png"/>
+<br />
+<br />
+ <h3>Data Audit and Quality Assessment</h3>
+
+<ul>
+    <li>Examined dataset dimensions, column names, data types, and memory information using <code>df.info()</code> and <code>df.shape</code>.</li>
+    <li>Identified missing values across individual columns.</li>
+    <li>Checked for duplicate records; no duplicate rows were identified.</li>
+    <li>Generated descriptive statistics to understand numerical variables.</li>
+    <li>Examined unique value counts to assess categorical consistency.</li>
+    <li>Investigated 10 implausible engine capacity records and 102 missing engine capacity values to understand their distribution and possible causes.</li>
+</ul>
 <img src="https://cdn.phototourl.com/anon/2026-11-18-a3cf1c6d-1606-4154-b694-aca11f6c747f.png"/>
 <br />
 <br />
@@ -46,6 +66,16 @@ This project involves a thorough analysis of 10,589 vehicles listed by Park whee
 <img src="https://cdn.phototourl.com/anon/2026-11-18-7e31581d-b6fa-469e-85e3-2de68fd9d7a9.png"/>
 <br />
 <br />  
+
+<h3>Data Inspection and Redundancy Removal</h3>
+
+<ul>
+    <li>Inspected the vehicle title column and identified that all 10,589 listings contained the redundant phrase "for sale".</li>
+    <li>Removed the redundant phrase using Pandas string operations.</li>
+    <li>Compared vehicle titles against structured attributes, including brand, model, variant, and manufacturing year.</li>
+    <li>Investigated 548 missing variant values and confirmed that these listings did not specify a variant in their original titles.</li>
+    <li>Dropped the title column because its information was largely represented by the structured attributes.</li>
+</ul>
 <img src="https://user34869.na.imgto.link/public/20261118/7089630502dccbb91cfc1d4d-screenshot-2026-11-18-at-11-29-34-pm.avif"/>
 <br />
 <br />
@@ -58,6 +88,15 @@ This project involves a thorough analysis of 10,589 vehicles listed by Park whee
 <img src="https://user34869.na.imgto.link/public/20261118/5e871f4faec381522e51f9d0-screenshot-2026-11-18-at-10-46-10-pm.avif"/>
 <br />
 <br />
+<h3>4. Exploratory Data Analysis (EDA)</h3>
+
+<ul>
+    <li>Selected four numerical variables for univariate analysis: Price (PKR), Manufacturing Year, Mileage (KM), and Engine Capacity (CC).</li>
+    <li>Generated descriptive statistics to examine mean, median, standard deviation, and distribution ranges.</li>
+    <li>Used histograms and KDE curves to visualize numerical distributions.</li>
+    <li>Examined skewness and the influence of extreme observations on central tendency.</li>
+    <li>Interpreted distribution patterns to identify market concentrations and potential business implications.</li>
+</ul>
 <img src="https://user34869.na.imgto.link/public/20261118/62227c6a7644e633d721d851-screenshot-2026-11-18-at-11-15-12-pm.avif"/>
 <img src="https://user34869.na.imgto.link/public/20261118/55657e462c686ee169e19062-screenshot-2026-11-18-at-11-14-22-pm.avif"/>
 <br />
@@ -99,16 +138,52 @@ This project involves a thorough analysis of 10,589 vehicles listed by Park whee
     <li>Larger-engine vehicles are comparatively less common.</li>
     <li><strong>Business implication:</strong> The market appears concentrated around small- and medium-engine-capacity vehicles.</li>
 </ul>
+<h3>Standardization of Data Quality Flags</h3>
+
+<ul>
+    <li>Standardized the <code>price_outlier_flag</code>, <code>mileage_flag</code>, and <code>engine_cc_flag</code> columns.</li>
+    <li>Filled missing flag values with False and converted the columns into Boolean data types.</li>
+    <li>Created a consolidated <code>is_clean_record</code> indicator to identify records that passed all three data quality checks.</li>
+    <li>Prepared the quality indicators for filtering and analysis in Tableau.</li>
+</ul>
+
 <br />
 <br />
 <img src="https://user34869.na.imgto.link/public/20261118/d7a081bf5dfef34ca5baf3a4-screenshot-2026-11-18-at-11-18-56-pm.avif"/>
 <img src="https://user34869.na.imgto.link/public/20261118/f632f66ac5f224f04568e865-screenshot-2026-11-18-at-11-19-16-pm.avif"/>
 <br />
 <br />
+<h3>Feature Engineering</h3>
+
+<ul>
+    <li>Converted the <code>scraped_at</code> column into a datetime format.</li>
+    <li>Converted manufacturing year into a nullable integer data type.</li>
+    <li>Calculated vehicle age using the difference between listing scrape year and manufacturing year.</li>
+    <li>Converted vehicle prices from PKR into PKR Lakhs for more readable dashboard presentation.</li>
+</ul>
+<h3>Data Type Standardization</h3>
+
+<ul>
+    <li>Converted mileage and engine capacity into nullable integer data types.</li>
+    <li>Ensured numerical fields were appropriately formatted for business intelligence tools.</li>
+    <li>Reviewed final column data types to verify consistency.</li>
+</ul>
+
+
 <img src="https://user34869.na.imgto.link/public/20261118/6ec9158b22302c6b5cbea631-screenshot-2026-11-18-at-11-19-34-pm.avif"/>
 <img src="https://user34869.na.imgto.link/public/20261118/40954ec9d7f159f33a6e4d6a-screenshot-2026-11-18-at-11-19-49-pm.avif"/>
 <br />
 <br />
+<h3>Exporting the Tableau-Ready Dataset</h3>
+
+<ul>
+    <li>Exported the processed dataset into CSV format.</li>
+    <li>Preserved the original dataset by performing all transformations on the working copy.</li>
+    <li>Generated a final dataset containing engineered features and data quality indicators.</li>
+    <li>Reported the total number of exported records and the proportion of records passing all three quality checks.</li>
+    <li>Prepared the resulting dataset for interactive dashboard development in Tableau.</li>
+</ul>
+<h3>A snapshot of Dashboard</h3> 
 <img src="https://user34869.na.imgto.link/public/20261118/32a67b8ccf7b33fbede70c3e-screenshot-2026-11-17-at-4-21-35-pm.avif"/>
 <br />
 <br />
