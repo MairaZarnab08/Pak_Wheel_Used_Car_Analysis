@@ -1,4 +1,4 @@
-<h1>Pak Wheel used Car Analysis</h1>
+<h1>Pakistan Used Car Market Intelligence</h1>
 <h2>Description:</h2>
 In Pakistan’s secondary automotive sector where volatile exchange rates, shifting import duties, and high financing costs heavily distort vehicle valuations pricing and inventory decisions are historically driven by dealer intuition rather than empirical market signals. This project aims to move vehicle purchase from intuition to an informed decision. To analyze 10,589 PakWheels listings (median price 34.3 lac, median mileage 88,843 km) to build an interactive Tableau pricing and liquidity engine; isolated 774 mispriced outlier listings (7.3%), quantified the 3-to-5-year depreciation cliff (~80 lac to ~45 lac), and identified a 66.0% automatic transmission shift to guide dealership inventory allocation and trade-in valuation.
 <br />
